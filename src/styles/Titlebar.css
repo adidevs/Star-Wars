@@ -1,0 +1,57 @@
+.StarWarsLogo{
+    width: 72px ;
+}
+.sideMenu{
+    display: none;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #03123D;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    z-index: 2;
+}
+.Search{
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    padding: 0 16px;
+    font-size: 16px;
+    background-color: #03123D;
+    color: #ffffff;
+}
+.Search::placeholder{
+    color: #ffffff;
+}
+.searchContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 10px; 
+}
+
+.Search {
+    padding-left: 40px;
+    max-width: 150px; 
+}
+
+@media screen and (max-width: 900px){
+    .sideMenu{
+        display: block;
+    }
+    .Logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

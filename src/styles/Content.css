@@ -1,0 +1,32 @@
+
+.welcome{
+    margin-top: 72px;
+    margin-left: 220px;
+}
+.greeting{
+    /* centre of div */
+    width: 60%;
+    margin: 150px auto;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.greetingImage{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.greeting h1{
+    width: 50%;
+}
+
+@media screen and (max-width: 900px){
+    .welcome{
+        margin-left: 0px;
+    }
+    .greeting{
+        /* centre of div */
+        width: 70%;
+    }
+}

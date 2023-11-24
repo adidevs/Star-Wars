@@ -1,0 +1,9 @@
+{
+  "short_name": "Star Wars",
+  "name": "A Star Wars Fanpage",
+  "icons": [  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

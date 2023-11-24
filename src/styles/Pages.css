@@ -1,0 +1,154 @@
+.pageContent{
+    margin-top: 72px;
+    margin-left: 220px;
+    color: white;
+}
+.pageCategory{
+    position:fixed;
+    top: 72px;
+    left: 220px;
+    right: 0px;
+    padding: 0px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    z-index: 2;
+    background-color: #03123D ;
+}
+.pageCategoryTitle{
+    font-size: 20px;
+    font-weight: 500;
+}
+.viewSelector{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    z-index: 2;
+    background-color: #03123D;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+.viewSelector span{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px 2px;
+}
+.selector{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.selector.active{
+    background-color: #ffffff;
+    color: #03123D;
+    border: 1px solid #ffffff;
+
+} 
+
+.menuButton{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5B6582;
+    border: none;
+    text-decoration: none;
+    margin: 10px 0px;
+    padding-top: 4px;
+    cursor: pointer;
+    border-radius: 7px;
+    width: 32px;
+    height: 25px;
+}
+.menuButtonLine{
+    background-color: #ffffff;
+    margin: 1.75px;
+    padding: 2px;
+    border-radius:100%;
+}
+
+.listViewItem .menuButton{
+    background-color: #03123D;
+}
+
+.gridView{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 10px;
+    margin-top: 125px; 
+    justify-items: center;
+    z-index: 0; 
+}
+.gridItem{
+    display: flex;
+    position: relative;
+    align-items: center;
+    max-width: 400px;
+    justify-content: space-between ;
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.gridItemData{
+    border-radius: 10px;
+}
+.gridItemData img{
+    border-radius: 10px;
+}
+.gridItemContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    border-radius: 10px;
+    background-color: #344063;
+    padding: 0px 10px; ;
+}
+.gridItemTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.gridItemTitle span{
+    margin-left: 10px;
+}
+
+.listHeader{
+    background-color: #4D5875;
+    padding: 10px 5px;
+}
+
+.listView{
+    margin-top: 125px; 
+}
+
+.listViewItem{
+    border-bottom: 1px solid #ffffff;
+    padding: 0px 5px;
+}
+
+.listItemData{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between ;
+    font-size: 15px;
+    padding: 5px 0px;
+}
+.listItemData .menu{
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 900px){
+    .pageContent{
+        margin-left: 0px;
+    }
+    .pageCategory{
+        left: 0px;
+    }
+    
+}
