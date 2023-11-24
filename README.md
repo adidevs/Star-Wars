@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-#Star Wars Fan Page
-
-## Description
-This is a fan page for Star Wars. It is a single page application that uses React and React Router. It uses the Star Wars API to display information about the Star Wars universe. 
-
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-=======
 # Star Wars Fan Page
 
 ### Description
@@ -15,32 +5,27 @@ This is a fan page for Star Wars. It is an application that uses React and React
 
 ### Table of Contents
 * [Installation](#installation)
->>>>>>> 64525403e58ed0d1ca0d92846d4a11551e3abbde
 * [License](#license)
 * [Contributions](#contributions)
 * [Questions](#questions)
 
-<<<<<<< HEAD
-## Installation
-=======
+
 ### Installation
->>>>>>> 64525403e58ed0d1ca0d92846d4a11551e3abbde
 To install necessary dependencies, run the following command:
 ```
 npm install
 ```
 
-<<<<<<< HEAD
-## Usage
-This project is a single page application that uses React and React Router. It uses the Star Wars API to display information about the Star Wars universe.
+### Usage
+This project is an application that uses React and React Router. It uses the Star Wars API to display information about the Star Wars universe.
 
-## License
+### License
 This project is licensed under the MIT license.
 
-## Contributions
+### Contributions
 This project is not open to contributions at this time.
 
-## Questions
+### Questions
 =======
 ### License
 This project is licensed under the MIT license.
